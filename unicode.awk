@@ -1,3 +1,4 @@
+#!/usr/bin/awk -f
 function unicollapse(a, _c, _i, _len, _index, _building) {
     _building = 0
     for (_len=_index=1; _index <= length(a); _index++) {
